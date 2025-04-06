@@ -7,6 +7,10 @@ channel = "stable-24_05"
 run = ["sh", "-c", "python app.py"]
 
 [[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
 localPort = 8000
 externalPort = 8000
 
